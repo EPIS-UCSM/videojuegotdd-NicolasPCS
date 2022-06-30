@@ -4,7 +4,6 @@ from poker.game_round import GameRound
 from poker.hand import Hand
 from poker.player import Player
 
-
 deck = Deck()
 cards = Card.create_standard_52_cards()
 deck.add_cards(cards)
